@@ -10,7 +10,7 @@
 
 ## 安装
 
-1. 解压 ZIP，确认得到完整的 `huaxin-mail-organizer` 文件夹（不要只复制 `SKILL.md`，也不要把 ZIP 本身放进 Skills 目录）。
+1. 解压分享仓库的 ZIP，进入 `skills/`，确认其中有完整的 `huaxin-mail-organizer` 文件夹（不要只复制 `SKILL.md`，也不要把 ZIP 本身放进 Skills 目录）。
 2. 将整个文件夹放到个人 Codex Skills 目录 `~/.codex/skills/`。在 Finder 中可用“前往文件夹…”输入该路径；如果目录不存在，先创建它。只想在某个项目中使用时，可放入该项目的 `.agents/skills/`。
 3. 新开一个 Codex 任务检查 Skill 是否出现；若未出现，重启 Codex 后再检查。
 
@@ -19,8 +19,8 @@
 Finder 里单独改文件夹名不会自动改 Skill 内容。先解压，再用包内脚本同时改文件夹名、`SKILL.md` 的 `name`、默认调用提示和 README 中的安装示例：
 
 ```sh
-python3 "$HOME/Downloads/huaxin-mail-organizer/scripts/rename_skill.py" \
-  "$HOME/Downloads/huaxin-mail-organizer" my-mail-helper \
+python3 "$HOME/Downloads/public-share/skills/huaxin-mail-organizer/scripts/rename_skill.py" \
+  "$HOME/Downloads/public-share/skills/huaxin-mail-organizer" my-mail-helper \
   --display-name "我的邮件助手"
 ```
 

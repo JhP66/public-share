@@ -1,5 +1,7 @@
-# Repository instructions
+# Public Share maintenance
 
-This public repository distributes exactly one Codex Skill: `huaxin-mail-organizer/`. Keep other personal Skills, mailbox contents, downloaded attachments, credentials, verification codes, and login-session data out of this repository.
+This is a public distribution repository for selectively approved copies of projects and resources. Treat everything committed here as visible to everyone. Never mirror a private repository wholesale, automatically sync private sources, or add an item merely because it exists in a private source. Add only the specific content the owner selected, and keep private originals unchanged.
 
-For Skill edits, inspect Git status first, use the Codex Skill Creator guidance, run its `quick_validate.py`, and exercise any changed scripts. Stage only files for the current change, inspect the staged diff, and run `gitleaks git --pre-commit --staged --redact --no-banner` before committing. Push only to this repository's authorized public origin; verify the remote visibility and that its branch points to the intended commit. Never force-push. The public visibility is intentional; do not change it or publish other Skills without the owner's explicit authorization.
+Before adding an item, inspect its source status and provenance, include only required files, exclude credentials, account/session data, private business records, caches, and unrelated work, and make the item's license and installation instructions explicit. Keep licenses scoped to the relevant item; do not imply a repository-wide license unless deliberately approved.
+
+For Skill changes, follow the Codex Skill Creator and run its `quick_validate.py`; test changed scripts. Stage only task files, inspect the staged diff, and run `gitleaks git --pre-commit --staged --redact --no-banner`. Commit and push only to this repository's public `origin`, verify that the repository remains public and the remote branch matches the intended commit. Never force-push or change visibility without explicit authorization.
