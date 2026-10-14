@@ -1,0 +1,4 @@
+interface:
+  display_name: "华鑫邮件整理"
+  short_description: "查找、下载并整理华鑫邮箱附件"
+  default_prompt: "使用 $huaxin-mail-organizer 查找并整理当前华鑫邮箱中的估值表附件。"
